@@ -1,0 +1,207 @@
+*{
+    font-family:sans-serif;
+}
+#wrapper{
+    padding-top: 5px;
+    padding-right: 115px;
+    padding-bottom: 50px;
+    padding-left: 115px;
+    background: no-repeat fixed url("../img/1.JPG"); 
+    background-position:top;
+}
+#imagen{
+    margin: 5px;
+}
+
+#barra1{
+    border:  0px solid black;
+    width: auto;
+    height: 100px;
+    background: #1E90FF;
+    padding: 5px;
+    border-radius: 10px;
+}
+#barra2{
+    border:  0px solid black;
+    width: auto;
+    height: 35px;
+  
+    padding: 15px;
+    align-content: center;
+    text-align:center;
+}
+#adorno{
+    border:  0px solid black;
+    width: auto;
+    height: 640px;
+    
+    padding: 0px;
+}
+
+#contenedorart{
+    border:  1px solid black;
+    width: auto;
+    height: 615px;
+    background: rgba(0, 0, 0, 0.7);
+    padding:  25px;
+    box-shadow: 0 0 0 1px black,
+        7px 7px 7px;
+    border-radius: 10px;
+}
+
+  *{
+  padding: 0px;
+  margin: 0px;
+} 
+
+#header{
+  margin: auto;
+  width: 100px;
+  font-family: serif;
+  float: left;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+.nav li a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+}
+.nav li a:hover{
+  background-color: #434343; 
+}
+
+.nav li ul{
+  display: none;
+  min-width: 80px;
+}
+
+.nav li:hover > ul{
+  display: block;
+}
+
+#contenedor h1{
+    color: white;
+    font-family: sans-serif;
+}
+#menu{
+    border: 0px solid black;
+    width: 13%;
+    height: 230px;
+    float: left;
+    margin-right: 10px;
+}
+#parrafo{
+    color: white;
+    font-family: serif;
+    text-align: justify;
+    border: 0px solid black;
+    float: left;
+    width: 85%;
+    
+}
+
+#img{
+  border: 0px solid black;
+    float: left;
+    
+}
+.img2{
+    margin: 20px;
+    border: 2px solid black;
+    height: 225px;
+    
+}
+#contenedor{
+    margin: 0px auto;
+}
+
+#footer{
+    border:  1px solid black;
+    width: auto;
+    height: 100px;
+    background: #1E90FF;
+    padding: 15px; 
+    border-radius: 10px;
+}
+.btnbarra1{
+    float: right;
+    margin: 5px;
+}
+
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.7);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+    
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; 
+  color:#1b1b1b;
+}
+
+.redes{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+#d1{
+    width: 25%;
+    height: 90px;
+    border: 0px solid black;
+    float: left;
+}
+#d2{
+    width: 43%;
+    height: 90px;
+    border: 0px solid black;
+    float: left;
+}
+#d3{
+    width: 30%;
+    height: 90px;
+    border: 0px solid black;
+    float: left;
+}
+#h1ti{
+    margin-left: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

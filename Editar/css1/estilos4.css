@@ -1,0 +1,152 @@
+	*{
+	font-family: Arial;
+
+}
+html{
+	min-height: 40%;
+}
+body{
+ 	background:url(../img/fondo1.jpg);background-repeat:repeat;
+ 	margin:0px;
+ 	padding: 0px;
+ 	background-color: ;
+}
+
+
+
+#barra2{
+    border:  0px solid black;
+    width: auto;
+    height: 35px;
+      padding: 15px;
+    align-content: center;
+    text-align:center;
+}
+
+#wrapper{
+	width: auto;
+	height: 26%; /*o 100%*/
+}
+img{
+	background:;
+}
+#menu{
+	width: 20%; height: 5%; background:#323232;
+}
+.cabecera{
+	background: #E84545; padding: 0.2em 2.0em; text-align: center; position: relative;
+	border-radius: 20px; width: 60%; margin:0px auto;
+}
+.cabecera span{
+	width: 100%; position: relative; color: white; ; top: -13px; font-size: 10pt;
+}
+#form-login{
+	width: 40%; margin: 3% 3% 3% 6%;background:url(../img/fondo.png); text-align: center; 
+	border: 3px solid #E84545; padding-top: 2%; box-shadow: 0 0 10px 0px; position: fixed;
+	float: left; 
+}
+.cabecera h1{
+	font-size: 1.4em; color: #fff; font-weight: 500;
+}
+form{
+	padding: 0% 2%;
+}
+form li{
+	 list-style: none; width: 95%; background-color: #F9F6F6;
+	border-radius: 5px; border: solid 1px #2B2E4A; margin:17px auto;
+}
+input[type="text"], select, textarea, input[type="file"],input[type="email"],input[type="password"]{
+	width: 100%; padding: 0.3em 0.9em 0.3em 0.9em; color: #3C3B3B; font-size: 17px; background: none;
+	font-weight: 500; border; none;
+}
+.submit{
+ padding: 10px 10px; width: 90%; margin:0px auto;
+}
+#contenedorsubmit{
+	width: 100%;
+	height: auto;
+}
+.submit [type="submit"]{
+	font-size: 17px; font-weight: 400; color: #fff; cursor: pointer; padding: 1px 50px; 
+	width: 100%;border: none; background-color:#E84545; border-radius: 10px; border:none; 
+	outline: none;
+}
+table [type="button"]{
+	font-size: 17px; font-weight: 400; color: #fff; cursor: pointer; padding: 1px 20px; 
+	width: 100%;border: none; background-color:#E84545; border-radius: 10px; border:none; 
+	outline: none;
+}
+table button{
+	 border: 0px solid black;
+    /* background: #3a7999; */
+    color: #f2f2f2;
+    padding: 0px;
+    font-size: 17px;
+    border-radius: 12px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+    margin-top:4%;
+}
+/* no hubo ningun cambio*/
+/*input[type="submit"]:hover{
+	background: #903749;
+}*/
+button:before {
+ content:'';
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 0px;
+ height: 22px;
+ background: rgba(255,255,255,0.3);
+ border-radius: 10px;
+ transition: all 1s ease;
+}
+ button:hover:before {
+ width: 100%;
+ border-radius: 10px;
+}
+button {
+    border: 0px solid black;
+    /* background: #3a7999; */
+    color: #f2f2f2;
+    padding: 0px;
+    font-size: 17px;
+    border-radius: 12px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+    float:left;
+    margin-left: 5px;
+}
+
+#derechos{
+	width: 100%; height: 5%; background:#323232;padding:4px 0px 0px 0px;
+	font-weight: bold; color:; text-align: center;bottom: 0; margin-top: 0px;
+	 margin-top: 1.56%; float:left;
+}
+
+a:visited{
+	color:red;
+}
+a{
+	text-decoration: none;
+	color:red;
+}
+#hecho{
+	width:44%; border:1px solid black; float:right; height: auto; margin:2% 5% auto;
+	background:url(../img/fondo.png);border: 3px solid #1c817c; box-shadow: 0px 0px 10px 0px;
+}
+#tabla{
+	border:0px solid black; margin:0px auto;padding: 5px; text-align:center;font-color:white;
+}
+#tabla tr td{border-collapse: collapse;border-bottom:1px solid #2a6598;}
+
+#tabla td{ padding: 5px 5px 5px 5px; }
+
+table{width:100%;}
+
+#tbody{color:white; }

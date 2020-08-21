@@ -1,0 +1,113 @@
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Resgistro de Preguntas</title>
+		<link rel="stylesheet" href="css1/estilos4.css">
+		<script type="text/javascript" src="js1/scrip.js"></script>
+	</head>
+	<body>
+		<div id="barra2">
+			<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+					<a href="../index.html" class="btn">VUE.JS </a>
+					<a href="../historia.html" class="btn"> HISTORIA </a>
+					<a href="../creador.html" class="btn"> CREADOR</a>
+	
+	
+</div>
+		<div id="wrapper">
+			<div id="form-login">
+				<div class="cabecera">
+					<h1>Preguntas del video VUE.js Historia</h1>
+					<span>Registrar Nueva Preguntas</span>
+				</div>
+				<form name="frm1" onsubmit="return false;">
+					<li>
+						<input type="text" id="categoria" value="" placeholder="nombre">
+					</li>
+					<li>
+						<textarea id="descripcion" style="height:200" placeholder="descripcion"></textarea>
+					</li>
+<div id="contenedorsubmit">
+	<div class="submit">
+		<button onclick="categorias()" id="guardar"><input type="submit"  value="Guardar"></button>
+		<button onclick="cancelar()" id="cancelar"><input type="submit"  value="Cancelar"></button>
+	</div>
+</div>
+				</form>
+				</div>
+			<div id="hecho">
+				<table id="tabla" style="border-collapse: collapse;">
+					<tbody id="tbody">
+						<tr style="font-weight:bold;">
+							<td>N°</td>
+							<td>Nombre de la Pregunta</td>
+							<td>Respuestas</td>
+							<td>Otras opciones</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>¿Cuáles son los valores fundamentales sobre los
+							cuales el creador de VUE se basa para sentirse impulsado a seguir trabajando de una manera excelente?:</td>
+							<td style="text-align:justify;"><p>Tenía mucha pasión por crear su propio proyecto.
+								Entrego todo su tiempo libre.
+								Tenía mucha dedicación.
+								Estaba más que emocionado  honestamente y también estaba muy feliz, 
+								es justo en Nueva York, no tengo que mudarme. Con JavaScript, había 
+								construido muchas piezas interactivas tipo experimentales para Chrome,
+								 las coloco en mi portafolio y también una de las cosas que yo hice en la escuela 
+								 de posgrado fue que construí un clon de la aplicación Clear.
+								</p></td>
+							<td><button onclick="eliminarFila(this)";><input type="button" value="Eliminar"></button><br>
+							<button onclick="editar(this)"><input type="button" value="Editar"></button></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>
+								¿Qué impulso inicialmente al creador de VUE para hacer este proyecto?
+								</td>
+							<td style="text-align:justify;"><p>Por qué trataba de usar algunos de estos frameworks existentes para esos fines, pero muchas veces me encontraba que las opciones no estaban realmente resolviendo mis problemas.
+								Pero también dictaminaba cómo escribirías tu código que realmente no encajaba bien en el tipo de proyectos en los que estábamos trabajando porque esos proyectos están realmente más centrados en la parte de interactividad en lugar de ser una aplicación. Comencé a pensar en cómo puedo hacer mi propio trabajo más eficiente, ahí fue cuando empecé a tener la idea de tal vez podría trabajar en un framework propio.
+								</p></td>
+							<td><button onclick="eliminarFila(this)";><input type="button" value="Eliminar"></button><br>
+							<button onclick="editar(this)"><input type="button" value="Editar"></button></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Para el creador de VUE ¿Que es lo que le da a el la medida de éxito de lo que ha hecho?</td>
+							<td style="text-align:justify;"><p>Creo que después de 1.0, estaba empezando para explorar las posibilidades de trabajar en a tiempo completo, tal vez esto podría en realidad generar algunos ingresos para que yo pueda trabajar en ello a tiempo completo.
+								Eso fue realmente También el momento en que empecé a sentir como una especie de división entre mi trabajo en Meteor versus mi trabajo en Vue.js.
+								En Meteor era realmente solo un desarrollador, yo no tenía este tipo de alto nivel poder de toma de decisiones, como podría hacer sugerencias pero realmente estaba nada cerca del lugar para decir así así es como debemos hacerlo. Tipo de me hizo un poco pesimista sobre dónde está Meteor terminaría siendo mientras que en comparación, el crecimiento de Vue.js fue algo así como solo estaba creciendo así que estaba notando que había menos personas en realidad usando Meteor y más personas están usando Vue.js de alguna manera, así que supongo que ese fue el momento en que pensé que sería podría valer la pena comenzar a trabajar en ello a tiempo completo.
+								</p></td>
+							<td><button onclick="eliminarFila(this)";><input type="button" value="Eliminar"></button><br>
+							<button onclick="editar(this)"><input type="button" value="Editar"></button></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>¿Que diferencia a VUE de otros frameworks?</td>
+							<td style="text-align:justify;"><p>Entonces Vue.js realmente llegó en el momento preciso porque realmente llenó este vacío de personas que querían una barrera más baja para entrar pero también querían la fuerza y la flexibilidad que tenías con algo así como React y eso es realmente uno de los puntos fuertes de Vue en ese sentido, lo de tomar lo mejor de tantos diferentes frameworks y diferentes plataformas.</p></td>
+							<td><button onclick="eliminarFila(this)";><input type="button" value="Eliminar"></button><br>
+							<button onclick="editar(this)"><input type="button" value="Editar"></button></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>
+								¿Qué ocasiono que subiera el prestigio de VUE drasticamente?
+								</td>
+							<td style="text-align:justify;"><p>Me invito a visitar el Campus de Alibabay simplemente hacer un tipo de conversación tecnológica a pequeña escala solo para presentar algunas de las ideas detrás de Vue.js, cómo comencé a trabajar en él y cuál es la ventaja de usarlo en comparación con algunos que estan escritos manualmente por decir jQuery. Y toman mucho tiempo tal vez un año o año y medio y finalmente algunos desarrolladores aceptan Vue.js y lo utilizan y hoy más y más los desarrolladores conocen Vue.js y usan Vue.js también.
+								Después de eso, supongo que Ali comenzó a usarlo un poco más, la gente también comenzó a saber más sobre Vue.js debido a mi presencia en (plataforma china) y también porque Vue.js había comenzado a
+								ganar más atracción fuera de China y luego parte de ese tipo de información de flujos de regreso a China, donde la gente descubre hey hay este nuevo framework llamado Vue.js y de hecho mucha gente primero aprenda acerca de Vue.js como este proyecto de código abierto, entonces se dan cuenta de que es oh en realidad está  escrito por una persona china.
+								Usamos Vue.js principalmente en nuestras aplicaciones de gestión de empresa
+								Algo similar a Google AdWords. Yo estaba como Vue.js aún crecerá pero no como para dominar al mundo o tener el dominio mundial o algo y no es nuestro objetivo o bien, es solo que estamos felices de trabajar en este proyecto y estamos felices de verlo crecer y estoy emocionado de ver dónde está.
+								Estoy realmente orgulloso de mí mismo por tomar el salto para dejar un trabajo de 9 a 5 y solo trabajar en algo en lo que estoy generalmente apasionado
+								A veces miraba las estadísticas como cuántos usuarios teníamos, cuántas descargas
+								</p></td>
+							<td><button onclick="eliminarFila(this)";><input type="button" value="Eliminar"></button><br>
+							<button onclick="editar(this)"><input type="button" value="Editar"></button></td>
+						</tr>
+					</tbody>
+				</table>			
+				</div>
+		</div>
+		<div id="Derechos reservados UNIVO"></div>
+	</body>
+</html>
