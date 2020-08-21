@@ -6,7 +6,7 @@
     padding-right: 115px;
     padding-bottom: 50px;
     padding-left: 115px;
-    background: no-repeat fixed url("../img/1.jpg"); 
+    background:url(../img/1.jpg);background-repeat:repeat;
     background-position:top;
 }
 #imagen{
